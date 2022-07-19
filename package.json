@@ -1,0 +1,16 @@
+{
+  "name": "t-rex",
+  "version": "1.0.0",
+  "description": "Le T-rex runner de Chrome avec différents personnages.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Matheroli",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^19.0.8",
+    "electron-packager": "^15.5.1"
+  }
+}
