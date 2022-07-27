@@ -2,6 +2,7 @@
 <p>
   <a href="https://electronjs.org"><img alt="electron" src="https://img.shields.io/badge/-Electron-47848F?style=flat-square&logo=electron&logoColor=black" /></a>
   <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img alt="js" src="https://img.shields.io/badge/-JavaScript-FFEE00?style=flat-square&logo=javascript&logoColor=black" /></a>
+  <a href="https://nodejs.org"><img alt="node_js" src="https://img.shields.io/badge/-JavaScript-FFEE00?style=flat-square&logo=nodejs&logoColor=black" /></a>
   <a href="https://github.com/Matheroli/t-rex-runner/releases"><img src="https://img.shields.io/github/downloads/Matheroli/t-rex-runner/total?color=green&style=plastic"></a>
 </p>
 
@@ -17,7 +18,7 @@
 Dans le dossier une fois extrait vous pouvez cliquer sur l'application et commencer à jouer ! 
 Si vous souhaitez déplacer le dossier où se trouve l'application, vous pouvez le faire sans aucun risque.
 
-### Cette application nécessite <a href="https://electronjs.org">Electron</a> ainsi que <a href="https://nodejs.org/fr">Node Js</a>.
+### Cette application nécessite <a href="https://nodejs.org/fr">Node Js</a> ainsi qu'<a href="https://electronjs.org">Electron</a>
 
 ### Pour utiliser le code source, suivez les instructions ci-dessous :
 
