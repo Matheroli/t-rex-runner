@@ -2,7 +2,7 @@
 <p>
   <a href="https://electronjs.org"><img alt="electron" src="https://img.shields.io/badge/-Electron-47848F?style=flat-square&logo=electron&logoColor=black" /></a>
   <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img alt="js" src="https://img.shields.io/badge/-JavaScript-FFEE00?style=flat-square&logo=javascript&logoColor=black" /></a>
-  <a href="https://nodejs.org"><img alt="node-js" src="https://img.shields.io/badge/-Node.js-#339933?style=flat-square&logo=nodedotjs&logoColor=black" /></a>
+  <a href="https://nodejs.org"><img alt="node-js" src="https://img.shields.io/npm/v/npm.svg?logo=nodedotjs"/></a>
   <a href="https://github.com/Matheroli/t-rex-runner/releases"><img src="https://img.shields.io/github/downloads/Matheroli/t-rex-runner/total?color=green&style=plastic"></a>
 </p>
 
