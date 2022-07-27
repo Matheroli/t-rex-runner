@@ -14,17 +14,14 @@
 
 - Pour bien utiliser l'application, veuillez suivre le guide ci-dessous :
 
-Dans le dossier une fois extrait, je conseille de créer un raccourci du fichier .exe puis de le déplacer sur le bureau pour faciliter l'accès à l'application.
-
-<img src="img-readme/img-raccourci.PNG">
-
+Dans le dossier une fois extrait vous pouvez cliquer sur l'application et commencer à jouer ! 
 Si vous souhaitez déplacer le dossier où se trouve l'application, vous pouvez le faire sans aucun risque.
 
 ### Cette application nécessite <a href="https://electronjs.org">Electron</a> ainsi que <a href="https://nodejs.org/fr">Node Js</a>.
 
 ### Pour utiliser le code source, suivez les instructions ci-dessous :
 
- - Installez les modules nécessaires au fonctionnement de l'app (PS: ci-dessous j'utilise <a href="https://git-scm.com/">Git</a> que je recommande fortement)
+ - Installez les modules nécessaires au fonctionnement de l'app
 
 ```cmd
 git clone https://github.com/Matheroli/t-rex-runner
