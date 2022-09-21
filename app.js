@@ -18,7 +18,6 @@ MacOS :
 let win;
 
 function createWindow () {
-
   win = new BrowserWindow({
     width: 800,
     height: 300,
@@ -44,7 +43,6 @@ app.on('window-all-closed', () => {
     app.quit();
   }
 });
-
 app.on('activate', () => {
   if (win === null) {
     createWindow();
@@ -61,6 +59,14 @@ const template = [
                 app.quit()
               },
               accelerator: "Alt+Q"
+          },
+          {
+            label: "Relancer",
+            click: () => {
+              app.relaunch()
+              app.exit()
+            },
+            accelerator: "Alt+R"
           }
       ]
   },
@@ -139,17 +145,6 @@ const template = [
           },
         ]
     }
-    /*{
-      label: "Mode",
-      submenu: [
-        {
-          label: "Sombre",
-          click: () => {
-            window.darkMode.toggle()
-          }
-        }
-      ]
-    } */
 ];
 const menu = Menu.buildFromTemplate(template);
 Menu.setApplicationMenu(menu);
