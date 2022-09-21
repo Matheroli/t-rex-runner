@@ -115,6 +115,12 @@ const template = [
       label: 'Sources',
       submenu: [
           {
+            label: "Code source de l'application",
+            click: () => {
+              electron.shell.openExternal("https://github.com/Matheroli/t-rex-runner")
+            }
+          },
+          {
             label: 'Original',
             click: () => {
             electron.shell.openExternal("https://github.com/wayou/t-rex-runner")
