@@ -1,7 +1,11 @@
 {
   "name": "t-rex",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Le T-rex runner de Chrome avec différents personnages.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Matheroli/t-rex-runner.git"
+  },
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +14,10 @@
   "author": "Matheroli",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^20.1.3",
-    "electron-packager": "^15.5.1"
+    "electron": "^20.1.4",
+    "electron-packager": "^16.0.0"
+  },
+  "dependencies": {
+    "update-electron-app": "^2.0.1"
   }
 }

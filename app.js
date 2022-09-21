@@ -2,6 +2,7 @@ const electron = require('electron');
 const app = electron.app;
 const BrowserWindow = electron.BrowserWindow;
 const Menu = electron.Menu;
+require('update-electron-app')()
 /* ELECTRON PACKAGER 
 
 Windows : npx electron-packager . t-rex --platform win32 --arch x64 --out dist/ --asar --icon=t-rex/icon.png
